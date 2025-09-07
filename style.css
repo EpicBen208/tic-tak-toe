@@ -1,13 +1,13 @@
 .grid{
     position: fixed;
     display: grid;
-    grid-template: repeat(3,15vh)/repeat(3,10vw);
+    grid-template: repeat(3,10vw)/repeat(3,10vw);
     left: 30vw;
     top: 24vh;
 }
 
 .grid>button{
-    font-size: 500%;
+    font-size: 200%;
 }
 .grid>h1{
     font-size: 300%;
