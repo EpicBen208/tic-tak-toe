@@ -1,0 +1,7 @@
+.grid{
+    position: fixed;
+    display: grid;
+    grid-template: repeat(3,15vh)/repeat(3,10vw);
+    left: 30vw;
+    top: 24vh;
+}
