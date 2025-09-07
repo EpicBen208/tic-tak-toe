@@ -17,6 +17,19 @@ const gameboard=(function(){
 
 
     const board=[['[_]','[_]','[_]'],['[_]','[_]','[_]'],['[_]','[_]','[_]']]
+    
+    const reset=()=>{
+        board[0][0]='[_]'
+        board[0][1]='[_]'
+        board[0][2]='[_]'
+        board[1][0]='[_]'
+        board[1][1]='[_]'
+        board[1][2]='[_]'
+        board[2][0]='[_]'
+        board[2][1]='[_]'
+        board[2][2]='[_]'
+        gameboard.display()
+    }
 
     const X=(x,y)=>{
         if(board[y-1][x-1]=='[_]'){board[y-1][x-1]='[X]'}
@@ -57,7 +70,7 @@ const gameboard=(function(){
             winner.innerHTML=('Winner: O')
         }
     }
-return{X,O,display,checkWin}
+return{X,O,display,checkWin,reset}
 }())
 
 gameboard.display()
