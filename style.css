@@ -5,3 +5,14 @@
     left: 30vw;
     top: 24vh;
 }
+
+.grid>button{
+    font-size: 500%;
+}
+.grid>h1{
+    font-size: 300%;
+}
+.title{position: fixed;
+    font-size: 400%;
+    left: 35vw;
+}
